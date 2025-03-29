@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const env = await import.meta.env;
+const env = import.meta.env;
 const apiBase = env.VITE_API_BASE_URL;
 
 const searchPlacesApiGateway = axios.create({
